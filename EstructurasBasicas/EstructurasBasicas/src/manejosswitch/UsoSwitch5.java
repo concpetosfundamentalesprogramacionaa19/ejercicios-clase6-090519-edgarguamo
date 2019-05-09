@@ -61,7 +61,11 @@ public class UsoSwitch5 {
                 System.out.printf("Su placa inicia con  %s por lo que es de "
                         + "%s\n",valor, "Santa Elena");
                 break;
-                
+            case 'j':    
+            case'J':
+                System.out.printf("Su placa inicia con  %s por lo que es de "
+                        + "%s\n",valor, "Santa Elena");
+                break;   
             default:
                 System.out.println("Su placa no es de la Region Costa");
                 
